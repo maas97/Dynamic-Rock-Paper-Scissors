@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(0, 0, 32);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.container {
+  border: 2px solid white;
+  width: 250px;
+  height: 80px;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.badgeUser,
+.badgeComputer {
+  background-color: rgb(251, 255, 188);
+  margin: 1px;
+  padding: 6px;
+  display: inline-block;
+  border-radius: 2px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.badgeUser {
+  top: 25px;
+  left: -30px;
+}
+
+.badgeComputer {
+  top: 25px;
+  right: -40px;
+}
+
+.result {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.message {
+  color: white;
+  text-align: center;
+  margin: 15px auto 0px;
+  font-weight: bolder;
+}
+
+.containerPics {
+  margin: 35px auto;
+  text-align: center;
+}
+
+.paper {
+  background-image: url(/images/paper.jpg);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto 20px;
+}
+
+.scissors {
+  background-image: url(/images/scissors.jpg);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto 20px;
+}
+
+.rock {
+  background-image: url(/images/rock.jpg);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto 20px;
+}
+
+.paper:hover,
+.rock:hover,
+.scissors:hover {
+  transition: all 0.7s ease;
+  opacity: 0.7;
+}
+
+.action {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+}
