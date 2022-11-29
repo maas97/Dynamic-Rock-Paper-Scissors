@@ -71,7 +71,7 @@ h1 {
 }
 
 .paper {
-  background-image: url(/images/paper.jpg);
+  background-image: url(images/paper.jpg);
   background-size: contain;
   width: 100px;
   height: 100px;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .scissors {
-  background-image: url(/images/scissors.jpg);
+  background-image: url(images/scissors.jpg);
   background-size: contain;
   width: 100px;
   height: 100px;
@@ -91,7 +91,7 @@ h1 {
 }
 
 .rock {
-  background-image: url(/images/rock.jpg);
+  background-image: url(images/rock.jpg);
   background-size: contain;
   width: 100px;
   height: 100px;
