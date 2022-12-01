@@ -1,12 +1,12 @@
 let userScore = 0;
 let computerScore = 0;
-const result = document.querySelector(".result");
-const userResult = document.querySelector(".userResult");
-const compResult = document.querySelector(".compResult");
-const message = document.querySelector(".message");
-const paper = document.querySelector(".paper");
-const rock = document.querySelector(".rock");
-const scissors = document.querySelector(".scissors");
+const result = document.querySelector("#result");
+const userResult = document.querySelector("#userResult");
+const compResult = document.querySelector("#compResult");
+const message = document.querySelector("#message");
+const paper = document.querySelector("#paper");
+const rock = document.querySelector("#rock");
+const scissors = document.querySelector("#scissors");
 
 function computerChoice() {
   const choices = ["paper", "rock", "scissors"];
