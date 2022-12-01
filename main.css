@@ -20,7 +20,7 @@ h1 {
   font-size: 30px;
 }
 
-.container {
+#container {
   border: 2px solid white;
   width: 250px;
   height: 80px;
@@ -30,8 +30,7 @@ h1 {
   position: relative;
 }
 
-.badgeUser,
-.badgeComputer {
+.badge {
   background-color: rgb(251, 255, 188);
   margin: 1px;
   padding: 6px;
@@ -42,72 +41,63 @@ h1 {
   font-weight: bold;
 }
 
-.badgeUser {
+#badgeUser {
   top: 25px;
   left: -30px;
 }
 
-.badgeComputer {
+#badgeComputer {
   top: 25px;
   right: -40px;
 }
 
-.result {
+#result {
   margin-top: 25px;
   font-weight: bold;
   font-size: 20px;
 }
 
-.message {
+#message {
   color: white;
   text-align: center;
   margin: 15px auto 0px;
   font-weight: bolder;
 }
 
-.containerPics {
+#containerPics {
   margin: 35px auto;
   text-align: center;
 }
 
-.paper {
+.image {
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto 20px;
+}
+
+#paper {
   background-image: url(images/paper.jpg);
-  background-size: contain;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: auto 20px;
 }
 
-.scissors {
+#scissors {
   background-image: url(images/scissors.jpg);
-  background-size: contain;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: auto 20px;
 }
 
-.rock {
+#rock {
   background-image: url(images/rock.jpg);
-  background-size: contain;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: auto 20px;
 }
 
-.paper:hover,
-.rock:hover,
-.scissors:hover {
+#paper:hover,
+#rock:hover,
+#scissors:hover {
   transition: all 0.7s ease;
   opacity: 0.7;
 }
 
-.action {
+#action {
   color: white;
   text-align: center;
   font-size: 17px;
