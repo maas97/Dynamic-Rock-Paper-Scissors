@@ -9,20 +9,25 @@
   </head>
   <body>
     <header><h1>Rock Paper Scissors</h1></header>
-    <div class="container">
-      <div class="badgeUser">User</div>
-      <div class="badgeComputer">Computer</div>
-      <div class="result">
-        <span class="userResult">0</span> : <span class="compResult">0</span>
+    <div id="container">
+      <div id="badgeUser" class="badge">User</div>
+      <div id="badgeComputer" class="badge">Computer</div>
+      <div id="result">
+        <span id="userResult">0</span> : <span id="compResult">0</span>
       </div>
     </div>
-    <div class="message">Start the game</div>
-    <div class="containerPics">
-      <div class="paper"></div>
-      <div class="rock"></div>
-      <div class="scissors"></div>
+    <div id="message">Start the game</div>
+    <div id="containerPics">
+      <img id="paper" class="image" src="images/paper.jpg" alt="paper" />
+      <img id="rock" class="image" src="images/rock.jpg" alt="rock" />
+      <img
+        id="scissors"
+        class="image"
+        src="images/scissors.jpg"
+        alt="scissors"
+      />
     </div>
-    <div class="action">Make your move</div>
+    <div id="action">Make your move</div>
     <script src="dynamic.js"></script>
   </body>
 </html>
